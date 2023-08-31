@@ -104,27 +104,32 @@
 }
 
 .box-project{
-    width: 1170;
+    width: 1170px;
     position: absolute;
     margin: 0 auto;
     left: 0;
     right: 0;
-    bottom: 100px;
-}
+    bottom: -90px;
+  }
 
 .box-info{
-    background-color: #ffffff;
+    background: #fff;
     width: 20%;
-    float: left;
-    margin-right: center;
+    float:left;
+    margin-right: 20px;
     text-align: center;
-    padding: 20px 20px;
+    /* padding: 20px 20px; */
+  }
+
+.box-info:nth-child(4){
+    margin-right: 0px;
 }
 
 .icon-cate{
     font-size: 50px;
     color: #5BE6AF;
     border-bottom: 2px solid #5BE6AF;
+    padding: 20px 20px;
 }
 
 .title-cate{
@@ -138,4 +143,15 @@
 .desription-cate{
     padding: 0px 20px 20px 20px ;
     text-align: left;
+}
+
+.main{
+    padding: 250px 20px 20px 20px;
+    text-align: center;
+}
+
+.page-description{
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px 20px;
 }
